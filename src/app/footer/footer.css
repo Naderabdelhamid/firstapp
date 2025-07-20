@@ -1,0 +1,24 @@
+footer {
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  height: 130px;
+  bottom: 0;
+}
+
+#footer .icons span i {
+  margin: 0 10px;
+  color: #fffcfc;
+  font-size: 24px;
+  transition: color 0.3s ease;
+  line-height: 30px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  margin: 0 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+#footer .icons span i:hover {
+  color: #131425;
+}
