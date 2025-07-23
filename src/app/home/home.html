@@ -1,22 +1,36 @@
-<section>
-  <!-- <div class="container title text-center">
-    <h2>Welcome</h2>
-    <p>This is the home page of your Angular application.</p>
-  </div> -->
+<section id="home">
+  <div class="container">
+    <div class="text-center my-5">
+      <h1>Welcome to Our Store</h1>
+      <p>Explore our wide range of products and enjoy great deals!</p>
+    </div>
+    <!-- 
+<div class="tow-way">
+    <input
+      type="text"
+      [(ngModel)]="text"
+      placeholder="Type something here..."
+      class="form-control mb-3"
+    />
+    <p>{{ text }}</p>
+</div> -->
+  </div>
+
   <!-- 
   <h4>hello {{ userName }} and your salary is {{ userSalary }}</h4>
-  <img class="w-25" [src]="img" alt="" />
-  <button (click)="sayHello()">Say Gogo</button> -->
+  <img class="w-25" [src]="imgSrc" alt="" />
+  <button (click)="sayHello()">Say</button>
 
-  <!--   <ul>
+  <ul>
     @for (name of frinds; track $index) {
     <li>{{ name }}</li>
     }
   </ul> -->
 
-  <ul>
-    @for (name of users ; track $index){
-    <li>{{ name }}</li>
-    }
-  </ul>
+  <!-- <input type="text" (keydown)="welcom($event)" /> -->
+  <!-- <button class="btn btn-info" (click)="changImg()">Chang</button>
+  <br />
+  <img class="w-25" [src]="imgSrc" alt="" /> -->
+
+  <!-- @for (item of items; track $index) {} -->
 </section>

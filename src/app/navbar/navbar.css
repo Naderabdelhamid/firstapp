@@ -1,0 +1,10 @@
+.active {
+  background-color: #10161f !important;
+  border-radius: 300px !important;
+  color: white !important;
+}
+
+.navbar {
+  background-color: #f8f9fa;
+  padding: 10px 20px;
+}

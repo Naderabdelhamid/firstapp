@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand navbar-dark bg-dark">
+<nav class="navbar navbar-expand bg-dark navbar-dark fixed-top">
   <div class="container">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">Logo</a>
     <button
       class="navbar-toggler hidden-lg-up"
       type="button"
@@ -11,20 +11,41 @@
       aria-label="Toggle navigation"
     ></button>
     <div class="collapse navbar-collapse" id="collapsibleNavId">
-      <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+      <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" href="#" aria-current="page"
+          <a
+            class="nav-link"
+            routerLinkActive="active"
+            routerLink="/home"
+            aria-current="page"
             >Home <span class="visually-hidden">(current)</span></a
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" aria-current="page"
+          <a
+            class="nav-link"
+            routerLinkActive="active"
+            routerLink="/about"
+            aria-current="page"
             >About <span class="visually-hidden">(current)</span></a
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" aria-current="page"
-            >Footer <span class="visually-hidden">(current)</span></a
+          <a
+            class="nav-link"
+            routerLinkActive="active"
+            routerLink="/product"
+            aria-current="page"
+            >Products <span class="visually-hidden">(current)</span></a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            routerLinkActive="active"
+            routerLink="/contact"
+            aria-current="page"
+            >Contact <span class="visually-hidden">(current)</span></a
           >
         </li>
 
@@ -44,12 +65,12 @@
           </div>
         </li> -->
       </ul>
-      <form class="d-flex my-2 my-lg-0">
+      <!-- <form class="d-flex my-2 my-lg-0">
         <input class="form-control me-sm-2" type="text" placeholder="Search" />
         <button class="btn btn-outline-info my-2 my-sm-0" type="submit">
           Search
         </button>
-      </form>
+      </form> -->
     </div>
   </div>
 </nav>
